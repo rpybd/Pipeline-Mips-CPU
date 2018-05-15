@@ -1,1 +1,2 @@
 # Pipeline-Mips-CPU
+This CPU is the original type of pipeline-mips-CPU, which arise from the single ones. As the single one, its main part is PipeLineMips.v and on the other hand it use extral parts such as Registers-Between-Stages and Forward-Unit to deal with the risk of data and control. tb.v use asm code to test it.
